@@ -1,5 +1,5 @@
-1.Data Structure by Lipschutz
-2.Algorithm Design by Kleinberg & Tardos
-3.Data Structures and Algorithms. Aho, Ullman & Hopcroft
-4.YouTube
-5.Wikipedia
+1.Data Structure by Lipschutz<br>
+2.Algorithm Design by Kleinberg & Tardos<br>
+3.Data Structures and Algorithms. Aho, Ullman & Hopcroft<br>
+4.YouTube<br>
+5.Wikipedia<br>
