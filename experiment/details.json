@@ -1,0 +1,46 @@
+{
+
+   "details": [
+       {
+			"Experiment": "Implementation of Queue using Linked List.",     
+			"Lab": "Data Structure Lab.",               
+			"Discipline": "Computer Science",				 
+			"Technology": "HTML, CSS, JS"         
+       }
+   ],
+
+   "developer": [
+       {       
+      "Developer": "Dr. Satyendra Kumar Pandey",         
+      "Institute": "Institute of Technology and Management, Gida, Gorakhpur",         
+      "InstituteAcronym": "ITM, Gida, Gorakhpur"   
+       }
+   ],
+
+   "contributer": [
+       {       
+			"Contributer": "Abhishek Mishra",             
+      "Institute": "Institute of Technology and Management, Gida, Gorakhpur",               
+			"InstituteAcronym": "ITM, Gida, Gorakhpur"         
+       },
+
+       {       
+			"Contributer": "Ashish Shukla",              
+      "Institute": "Institute of Management Studies, Noida, Uttar Pradesh",               
+			"InstituteAcronym": "IMS, Noida, Uttar Pradesh"         
+       },
+
+       {       
+			"Contributer": "Kriti Shukla",             
+      "Institute": "Institute of Technology and Management, Gida, Gorakhpur",               
+			"InstituteAcronym": "ITM, Gida, Gorakhpur"         
+       },
+
+       {       
+			"Contributer": "Pankaj Kumar Gond",              
+      "Institute": "Institute of Technology and Management, Gida, Gorakhpur",               
+			"InstituteAcronym": "ITM, Gida, Gorakhpur"         
+       }
+   ]
+
+}
