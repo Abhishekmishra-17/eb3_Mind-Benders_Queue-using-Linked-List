@@ -8,7 +8,7 @@
 
 <h5> About the Lab (Objective) : </h5>
 
-The main objective of this data structure lab is to implement the Queue using Linked-List . In this lab students are able to understand the concepts Queue and also understand the practical implementation of Queue using Linked-List.
+The objective of this lab is to teach students various data structures and to explain them algorithms for performing various operations on these data structures. This lab complements the data structures course. Students will gain practical knowledge by writing and executing algorithm by using various data structures such as arrays, linked lists, stacks, queues, trees, graphs, hash tables and search trees.
 
 <h5> About the Experiment : </h5>
 The experiment "Implementation of Queue using Linked-List", is the implementation of basic principle of Queue, which is FIFO ( First In First Out).
@@ -34,11 +34,11 @@ AKTU
 
 #### Mentor Details
 
-<b>Mentored by | <b> Er. Sheetal Singh
+<b>Mentored by | <b> Dr Ramesh Sharma
 :--|:--|
-<b> Institute | <b> IIT KANPUR
-<b> Email id|     <b> sheetals@iitk.ac.in
-<b> Department | Sr. Project Associate (Computer Science) 
+<b> Institute | <b> Feroze Gandhi Institute of Engineering and Technology
+<b> Email id|     <b> sharmarameshfgiet@gmail.com 
+<b> Department | Department of Applied science 
 
 #### Contributors List
 
