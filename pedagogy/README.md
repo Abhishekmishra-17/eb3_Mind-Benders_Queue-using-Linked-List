@@ -1,7 +1,7 @@
 ## Pedagogy (Round 1)
 <p align="center">
 <br>
-<b> Experiment: Implementation of Queue using Linked-list<a name="top"></a> <br>
+    <b> Experiment: Implementation of Queue using Linked-list<a name="top"></a></b> <br>
 </p>
 
 <b>Discipline | <b>Computer Science and Engineering
