@@ -1,7 +1,7 @@
 ## Introduction (Round 0)
 <br>
 
-<b>Discipline | <b>Computer Science
+<b>Discipline | <b>Computer Science and Engineering
 :--|:--|
 <b> Lab | <b> Data Structure Lab
 <b> Experiment|     <b> Implementation of Queue using Linked List
