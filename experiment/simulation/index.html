@@ -1,1 +1,240 @@
-index.hmtl
+<!DOCTYPE html>
+    <html lang="en-US">
+        <head>
+            <title>Queue (Using Linked List)</title>
+            <link rel="stylesheet" type="text/css" href="css/fonts.css">
+            <link rel="stylesheet" type="text/css" href="css/main.css">
+            
+        </head>
+        <body>
+            <div class="preloader">
+            
+                <div class="logo">
+                  <h1>Queue</h1>
+                    <div class="box">
+                      <span></span><span></span><span></span><span></span><span></span>
+                    </div>
+                </div>
+                <div class="text">Linear Queue implementation using Linked list</div>
+                
+            </div>
+            <main>
+                <div class="askme">
+                   <div class="question-assesment">
+                       <div class="question">
+                         <h4>Q. What does the enQueue operation do?</h4>
+                       </div>
+                       <div class="checkbox">
+                           <div class="option">
+                              <label class="container false">Insert new element.
+                                  <input type="checkbox">
+                                  <span class="checkmark"></span>
+                                </label>
+                                     
+                           </div>
+                           <div class="option">
+                              <label class="container">Delete element.
+                                  <input type="checkbox">
+                                  <span class="checkmark"></span>
+                                </label>
+                                     
+                           </div>
+                           <div class="option">
+                              <label class="container">Both Insert and Delete.
+                                  <input type="checkbox">
+                                  <span class="checkmark"></span>
+                                </label>
+                                     
+                           </div>
+                           <div class="option">
+                              <label class="container">Check if Queue is full.
+                                  <input type="checkbox">
+                                  <span class="checkmark"></span>
+                                </label>
+                                     
+                           </div>
+                       </div>
+                    </div>
+                </div>
+                <div class="information">
+                  <div class="header">
+                    <div class="simulater">Simulater <i class="">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="15" height="15"><path fill="#fff" d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z"/></svg>
+                        </i></div>
+                    </div>
+                    
+                  <div class="text">
+                              <div class="blocks">
+                                 <div class="question-text">
+                                     Queue using linked list?
+                                  </div>
+                                  <div class="answer-text">
+                                   <p>In a linked queue, each node of the queue consists of two parts i.e. data part and the link part. Each element of the queue points to its immediate next element in the memory.<br>
+                                      In the linked queue, there are two pointers maintained in the memory i.e. front pointer and rear pointer. The front pointer contains the address of the starting element of the queue while the rear pointer contains the address of the last element of the queue.<br>
+
+                                       Insertion and deletions are performed at rear and front end respectively. If front and rear both are NULL, it indicates that the queue is empty.
+                                      </p>
+                                  </div>
+                              </div>
+                              <div class="blocks">
+                                 <div class="question-text">
+                                     Linear Queue operations:
+                                  </div>
+                                  <div class="answer-text">
+                                   
+                                     <p>1. enQueue(Insert new element).</p>
+                                       <p>2. deQueue(Delete element).</p>
+                                      <p>3. isEmpty(Check if Queue is empty).</p>
+                                      <p>4. display(Display all queue elements).</p>
+                                      
+                                      
+                                      
+                                  </div>
+                              </div>
+                      
+                              <div class="blocks">
+                                 <div class="question-text">
+                                     Time complexity:
+                                  </div>
+                                  <div class="answer-text">
+                                   
+                                     <p>1. enQueue O(1).</p>
+                                       <p>2. deQueue O(1).</p>
+                                      <p>3. isEmpty O(1).</p>
+                                      <p>4. display O(n).</p>
+                                      
+                                      
+                                      
+                                  </div>
+                              </div>
+                    </div>
+                </div>
+                <header>
+                 <div class="list run">
+                     <i class="start">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z"/></svg>
+                        </i>
+                     <i class="stop">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48z"/></svg>
+                        </i>
+                     <span>Run</span></div>
+                    <div class="theory list">Queue using linked list? <i class="">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="15" height="15"><path fill="#fff" d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm-28.9 143.6l75.5 72.4H120c-13.3 0-24 10.7-24 24v16c0 13.3 10.7 24 24 24h182.6l-75.5 72.4c-9.7 9.3-9.9 24.8-.4 34.3l11 10.9c9.4 9.4 24.6 9.4 33.9 0L404.3 273c9.4-9.4 9.4-24.6 0-33.9L271.6 106.3c-9.4-9.4-24.6-9.4-33.9 0l-11 10.9c-9.5 9.6-9.3 25.1.4 34.4z"/></svg>
+                      </i></div>
+                </header>
+                <section class="container">
+                    <div class="editor scroll-x">
+                     <div class="code">
+                         <div class="line"></div>
+                         <div class="code-text"></div>
+                        </div>
+                    </div>
+                    <div class="live">
+                      <div class="graphical">
+                         <h1>Queue implementation using Linked list</h1>
+                          <div class="varibles-box">
+                            <div class="header">
+                                <em>Data/Variables: </em>
+                                <div class="color-info">
+                                    <div class="color">
+                                      <div class="red colorCode"></div>
+                                      <span class="info">Free</span>
+                                    </div>
+                                    
+                                    <div class="color">
+                                      <div class="green colorCode"></div>
+                                      <span class="info">Used</span>
+                                    </div>
+                                    
+                                    <div class="color">
+                                      <span class="info">Max Nodes(5)</span>
+                                    </div>
+                                
+                                </div>
+                              </div>
+                            
+                            <div class="memory"></div>
+                          </div>
+                          <div class="direction-box">
+                              <div class="queue-line">
+                              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="60px" height="70px" viewBox="0 0 60 70" enable-background="new 0 0 60 70" xml:space="preserve"><g><rect fill="#626262" x="31" y="54" width="2" height="4"/><rect fill="#626262" x="31" y="18" width="2" height="4"/><rect fill="#626262" x="31" y="48" width="2" height="4"/><rect fill="#626262" x="31" y="36" width="2" height="4"/><rect fill="#626262" x="31" y="12" width="2" height="4"/><rect fill="#626262" x="31" y="42" width="2" height="4"/><rect fill="#626262" x="31" y="30" width="2" height="4"/><rect  fill="#626262" x="31" y="6" width="2" height="4"/><rect fill="#626262" x="31" y="60" width="2" height="4"/><rect fill="#626262" x="31" y="24" width="2" height="4"/><polygon fill="#626262" points="23.707,10.707 31,3.414 31,4 33,4 33,3.414 40.293,10.707 41.707,9.146 32.707,0 31.293,0 22.293,9.146 "/></g></svg>
+                              </div>
+                          </div>
+                          <div class="array-box">
+                              
+                              <div class="queue">
+                                  <div class="array-index">
+                                      
+                                     <div class="array-graphical">
+
+                                      </div>
+                                      
+                                  </div>
+                                  
+                              </div>
+                              <div class="index-no">
+                              </div>
+                                  <div class="array-pointer">
+                                      <div class="pointer front">
+                                        <div class="symbol"><i class="front">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path d="M88 166.059V468c0 6.627 5.373 12 12 12h56c6.627 0 12-5.373 12-12V166.059h46.059c21.382 0 32.09-25.851 16.971-40.971l-86.059-86.059c-9.373-9.373-24.569-9.373-33.941 0l-86.059 86.059c-15.119 15.119-4.411 40.971 16.971 40.971H88z"/></svg>
+                                            </i></div>
+                                        <div class="text">*F</div>
+                                      </div>
+                                      <div class="pointer rear">
+                                        <div class="symbol"><i class="rear">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path d="M88 166.059V468c0 6.627 5.373 12 12 12h56c6.627 0 12-5.373 12-12V166.059h46.059c21.382 0 32.09-25.851 16.971-40.971l-86.059-86.059c-9.373-9.373-24.569-9.373-33.941 0l-86.059 86.059c-15.119 15.119-4.411 40.971 16.971 40.971H88z"/></svg>
+                                            </i></div>
+                                        <div class="text">*R</div>
+                                      </div>
+                                      
+                                       
+                                  </div>
+                          </div>
+                        </div>
+                      <div class="bash">
+                        <div class="operations">
+                           <div class="tag heading disabled">
+                              Operations  <i class="">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="20px" height="15px"><path fill="#fff" d="M313.941 216H12c-6.627 0-12 5.373-12 12v56c0 6.627 5.373 12 12 12h301.941v46.059c0 21.382 25.851 32.09 40.971 16.971l86.059-86.059c9.373-9.373 9.373-24.569 0-33.941l-86.059-86.059c-15.119-15.119-40.971-4.411-40.971 16.971V216z"/></svg>
+                               </i>
+                            </div>
+                            <div class="tag cmd enqueue-function disabled">
+                              enQueue <i class="">
+                                
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M278.9 511.5l-61-17.7c-6.4-1.8-10-8.5-8.2-14.9L346.2 8.7c1.8-6.4 8.5-10 14.9-8.2l61 17.7c6.4 1.8 10 8.5 8.2 14.9L293.8 503.3c-1.9 6.4-8.5 10.1-14.9 8.2zm-114-112.2l43.5-46.4c4.6-4.9 4.3-12.7-.8-17.2L117 256l90.6-79.7c5.1-4.5 5.5-12.3.8-17.2l-43.5-46.4c-4.5-4.8-12.1-5.1-17-.5L3.8 247.2c-5.1 4.7-5.1 12.8 0 17.5l144.1 135.1c4.9 4.6 12.5 4.4 17-.5zm327.2.6l144.1-135.1c5.1-4.7 5.1-12.8 0-17.5L492.1 112.1c-4.8-4.5-12.4-4.3-17 .5L431.6 159c-4.6 4.9-4.3 12.7.8 17.2L523 256l-90.6 79.7c-5.1 4.5-5.5 12.3-.8 17.2l43.5 46.4c4.5 4.9 12.1 5.1 17 .6z"/></svg>
+                                </i>
+                            </div>
+                            <div class="tag cmd dequeue-function disabled">
+                              deQueue <i class="">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M278.9 511.5l-61-17.7c-6.4-1.8-10-8.5-8.2-14.9L346.2 8.7c1.8-6.4 8.5-10 14.9-8.2l61 17.7c6.4 1.8 10 8.5 8.2 14.9L293.8 503.3c-1.9 6.4-8.5 10.1-14.9 8.2zm-114-112.2l43.5-46.4c4.6-4.9 4.3-12.7-.8-17.2L117 256l90.6-79.7c5.1-4.5 5.5-12.3.8-17.2l-43.5-46.4c-4.5-4.8-12.1-5.1-17-.5L3.8 247.2c-5.1 4.7-5.1 12.8 0 17.5l144.1 135.1c4.9 4.6 12.5 4.4 17-.5zm327.2.6l144.1-135.1c5.1-4.7 5.1-12.8 0-17.5L492.1 112.1c-4.8-4.5-12.4-4.3-17 .5L431.6 159c-4.6 4.9-4.3 12.7.8 17.2L523 256l-90.6 79.7c-5.1 4.5-5.5 12.3-.8 17.2l43.5 46.4c4.5 4.9 12.1 5.1 17 .6z"/></svg>
+                                </i>
+                            </div>
+                            <div class="tag cmd isempty-function disabled">
+                              isEmpty <i class="">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M278.9 511.5l-61-17.7c-6.4-1.8-10-8.5-8.2-14.9L346.2 8.7c1.8-6.4 8.5-10 14.9-8.2l61 17.7c6.4 1.8 10 8.5 8.2 14.9L293.8 503.3c-1.9 6.4-8.5 10.1-14.9 8.2zm-114-112.2l43.5-46.4c4.6-4.9 4.3-12.7-.8-17.2L117 256l90.6-79.7c5.1-4.5 5.5-12.3.8-17.2l-43.5-46.4c-4.5-4.8-12.1-5.1-17-.5L3.8 247.2c-5.1 4.7-5.1 12.8 0 17.5l144.1 135.1c4.9 4.6 12.5 4.4 17-.5zm327.2.6l144.1-135.1c5.1-4.7 5.1-12.8 0-17.5L492.1 112.1c-4.8-4.5-12.4-4.3-17 .5L431.6 159c-4.6 4.9-4.3 12.7.8 17.2L523 256l-90.6 79.7c-5.1 4.5-5.5 12.3-.8 17.2l43.5 46.4c4.5 4.9 12.1 5.1 17 .6z"/></svg>
+                                </i>
+                            </div>
+                            <div class="tag cmd display-function disabled">
+                              display <i class="">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path d="M278.9 511.5l-61-17.7c-6.4-1.8-10-8.5-8.2-14.9L346.2 8.7c1.8-6.4 8.5-10 14.9-8.2l61 17.7c6.4 1.8 10 8.5 8.2 14.9L293.8 503.3c-1.9 6.4-8.5 10.1-14.9 8.2zm-114-112.2l43.5-46.4c4.6-4.9 4.3-12.7-.8-17.2L117 256l90.6-79.7c5.1-4.5 5.5-12.3.8-17.2l-43.5-46.4c-4.5-4.8-12.1-5.1-17-.5L3.8 247.2c-5.1 4.7-5.1 12.8 0 17.5l144.1 135.1c4.9 4.6 12.5 4.4 17-.5zm327.2.6l144.1-135.1c5.1-4.7 5.1-12.8 0-17.5L492.1 112.1c-4.8-4.5-12.4-4.3-17 .5L431.6 159c-4.6 4.9-4.3 12.7.8 17.2L523 256l-90.6 79.7c-5.1 4.5-5.5 12.3-.8 17.2l43.5 46.4c4.5 4.9 12.1 5.1 17 .6z"/></svg>
+                                </i>
+                            </div>
+                            <div class="tag right reload-terminal">
+                              Reset <i class="">
+                                
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="10" height="10"><path fill="#fff" d="M500.33 0h-47.41a12 12 0 0 0-12 12.57l4 82.76A247.42 247.42 0 0 0 256 8C119.34 8 7.9 119.53 8 256.19 8.1 393.07 119.1 504 256 504a247.1 247.1 0 0 0 166.18-63.91 12 12 0 0 0 .48-17.43l-34-34a12 12 0 0 0-16.38-.55A176 176 0 1 1 402.1 157.8l-101.53-4.87a12 12 0 0 0-12.57 12v47.41a12 12 0 0 0 12 12h200.33a12 12 0 0 0 12-12V12a12 12 0 0 0-12-12z"/></svg>
+                                </i>
+                            </div>
+                          </div>
+                          <div class="command scroll-x">
+                          <div class="commands-line"></div>
+                          </div>
+                        </div>
+                    </div>
+                    
+                </section>
+            </main>
+       <script src="js/main.js"></script>
+        </body>
+    </html>
