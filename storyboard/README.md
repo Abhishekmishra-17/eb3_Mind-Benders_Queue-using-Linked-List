@@ -70,7 +70,7 @@ In this experiment user will able to learn the array implementation of queue wit
 
 
 ### 3. Flowchart 4
-<img src="flowchart/flowchart.png"/><br>
+<img src="flowchart/flowchartll.JPG"/><br>
 link to flow chart Here : Store in the  /flowchart folder within Round2 folder in your repo
 <br>
 
@@ -79,4 +79,4 @@ link to flow chart Here : Store in the  /flowchart folder within Round2 folder i
 </br>
 
 ### 5. Storyboard :
-Storyboard: <a href="Storyboard/queuell.gif"> [here]</a>
+Storyboard: <a href="storyboard/queuell.gif"> [here]</a>
