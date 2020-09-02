@@ -4,8 +4,7 @@
 Experiment 1: Implementation of Queue using Linked-list.
 
 ### 1. Story Outline:
-
-In this experiment user will click on "run" button to run the simulator as well as algorithm. Once the global variable declared by the simulator which is shown by animation then it will ask for node value of linked-list. The node value of linked-list is given by user.Once the node value of linked-list is inserted, an linked-list will make in animation part. User will free to choose any operation like deQueue enQueue e.t.c. whatever operation is choosing by user the working animation of that operation will show in animation part and output will shown in console part.
+The experiment "Implementation of Circular Queue using Linked-list" is implementation of concept of circular queue. In this experiment user will be able to understand the working concept of Queue with the help of Linked-list. In this experiment user will see the step by step animation, which is real time animation, by which he/she can visualize the working concepts of Queue with the help of simulator. After performing this experiment user will able to explain the concepts (algorithm and working method) of Queue and Linked-list and its complexity.
 
 ### 2. Story:
 
