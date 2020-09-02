@@ -1,1 +1,2 @@
-### Data Structure Lab
+### Lab Name:
+Data Structure Lab
