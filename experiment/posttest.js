@@ -90,27 +90,49 @@
 
   const myQuestions = [
     {
-      question: "This is question 1?",  ///// Write the question inside double quotes
+      question: "deQueue() is call only when:-",  ///// Write the question inside double quotes
       answers: {
-        a: "Option 1",                  ///// Write the option 1 inside double quotes
-        b: "Option 2",                  ///// Write the option 2 inside double quotes
-        c: "Option 3",                  ///// Write the option 3 inside double quotes
-        d: "Option 4"                   ///// Write the option 4 inside double quotes
+        a: "new element is inserted.",                  ///// Write the option 1 inside double quotes
+        b: "an element is deleted.",                  ///// Write the option 2 inside double quotes
+        c: "we check the state of queue",                  ///// Write the option 3 inside double quotes
+        d: "None of the options"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "a"                ///// Write the correct option inside double quotes
+      correctAnswer: "b"                ///// Write the correct option inside double quotes
     },
 
     {
-      question: "This is question 2?",  ///// Write the question inside double quotes
+      question: "Name of pointer that is used for the front side:",  ///// Write the question inside double quotes
       answers: {
-        a: "Option 1",                  ///// Write the option 1 inside double quotes
-        b: "Option 2",                  ///// Write the option 2 inside double quotes
-        c: "Option 3",                  ///// Write the option 3 inside double quotes
-        d: "Option 4"                   ///// Write the option 4 inside double quotes
+        a: "FRONT",                  ///// Write the option 1 inside double quotes
+        b: "END",                  ///// Write the option 2 inside double quotes
+        c: "REAR",                  ///// Write the option 3 inside double quotes
+        d: "All of above"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "b"                ///// Write the correct option inside double quotes
+      correctAnswer: "a"                ///// Write the correct option inside double quotes
     },                                  ///// To add more questions, copy the section below 
     									                  ///// this line
+    
+    {
+      question: "IsFUll() funtion is used to:-",
+      answers: {
+        a: "check that queue is empty or not.",
+        b: "check that queue is full or not.",
+        c: "A and B both",
+        d: "None of these"
+      },
+      correctAnswer: "b"
+    },
+    
+    {
+      question: "What is the maximum node of linked list has to be created in the simulator?",
+      answers: {
+        a: "5",
+        b: "4",
+        c: "7",
+        d: "9"
+      },
+      correctAnswer: "a"
+    },
 
 
     /* To add more MCQ's, copy the below section, starting from open curly braces ( { )
