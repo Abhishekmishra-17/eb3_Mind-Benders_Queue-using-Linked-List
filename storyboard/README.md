@@ -78,4 +78,8 @@ link to flow chart Here : Store in the  /flowchart folder within Round2 folder i
 </br>
 
 ### 5. Storyboard :
+<img src="images/al1.jpeg"/>
+<img src="images/al2.jpeg"/>
+<img src="images/al3.jpeg"/>
+<img src="images/al4.jpeg"/><br>
 Storyboard: <a href="storyboard/queuell.gif"> [here]</a>
