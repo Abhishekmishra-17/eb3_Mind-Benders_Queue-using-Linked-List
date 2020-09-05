@@ -34,27 +34,31 @@ The main objectives of user is that the user will undertand the working concept 
 ##### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
 
 <b>1.Learning Objective: Remember</b><br>
-<b>Question:</b>What is basic working principle of Queue<br>
-A. LIFO<br>
-<b>B. FIFO</b><br>
-C. LIFO and FIFO both<br>
-D. None of these<br>
+Question: In linked list implementation of a queue, the important condition for a queue to be empty is?<br>
+<b>A. Front is equal to Null</b><br>
+B. Front is equal -1<br>
+C. Front is equal to Array size-1<br>
+D. Front==Rear-1<br>
 
 <b>2.Learning Objective: Understand</b><br>
-<b>Question:</b>Which is not basic operation of Queue<br>
-A. enQueue<br>
-B. deQueue<br>
-<b>C. isNull</b><br>
-D. IsEmpty<br>
+Question:- In linked list implementation of queue, if only front pointer is maintained, which of the following operation take worst case linear time?<br>
+A. Insertion<br>
+B. Deletion<br>
+C. To empty a queue<br>
+<b>D. Both A and C</b><br>
 
 <b>3.Learning Objective: Apply</b><br>
-<b>Question:</b>What is a Linked-list<br>
-<b>A. Data Structure</b><br>
-B. Data Type<br>
-C.Fuction<br>
-D. None of these<br>
+Question1: In linked list implementation of a queue, front and rear pointers are tracked. Which of these pointers will change during an insertion into EMPTY queue?<br>
+A. Only Front pointer<br>
+B. Only Rear pointer<br>
+<b>C. Both front and rear pointer</b><br>
+D. No pointer will changed.<br>
 
-
+Question2: In linked list implementation of a queue, where does a new element be inserted?<br>
+A.At the head of linked-list<br>
+B.At the centre position of linked-list<br>
+<b>C.At the tail of linked-list</b><br>
+D.At any positionin the linked-list<br>
 
 ##### 2.5 Allow pitfalls:
 
