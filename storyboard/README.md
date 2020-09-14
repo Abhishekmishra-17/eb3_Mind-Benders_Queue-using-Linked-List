@@ -67,7 +67,7 @@ D.At any positionin the linked-list<br>
 
 ##### 2.6 Conclusion:
 
-In this experiment user will able to learn the array implementation of queue with their working animation, which is plus point of this simulator. After completion of this experiment user will be able to get the concept of Queue, enQueue, deQueue and IsFull, Is empty condition. Task assessment questions will improve the knowledge of known concepts, which included in last of the simulator session. 
+In this experiment user will able to learn the array implementation of queue with their working animations, which is plus point of this simulator. After completion of this experiment user will be able to explin the concept of Queue implemenation using linked-list and it operations like "enQueue", "deQueue", "IsFull" and "Isempty" condition. Task assessment questions will improve the knowledge of working concepts, which included in between of the simulator session. 
 
 ##### 2.7 Equations/formulas: NA
 
