@@ -20,11 +20,11 @@ B. Tech. 2nd year Students and teachers
 
 <h5> Course Alignment : </h5>
 
-KCS-351 Data Structure Lab
+B.Tech.
 
 <h5> Universities Mapped : </h5>
 
-AKTU
+Dr. A.P.J. Abdul Kalam Technical University Uttar Pradesh
 
 <b>Name of Developer | <b> Dr. Satyendra Kumar Pandey
 :--|:--|
