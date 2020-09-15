@@ -24,7 +24,7 @@ B.Tech.
 
 <h5> Universities Mapped : </h5>
 
-Dr. A.P.J. Abdul Kalam Technical University Uttar Pradesh
+Dr. A.P.J. Abdul Kalam Technical University, Lucknow, Uttar Pradesh
 
 <b>Name of Developer | <b> Dr. Satyendra Kumar Pandey
 :--|:--|
