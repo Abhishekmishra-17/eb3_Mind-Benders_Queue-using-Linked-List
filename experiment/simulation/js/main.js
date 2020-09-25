@@ -1052,3 +1052,24 @@ function scrollTerminal(){
 
 }
 window.addEventListener('load', main);
+
+
+
+function resolution(){
+    var width = screen.width;
+    var height = screen.height;
+    var wRation = 1366;
+    var hRatio = 625;
+    var elmMain = document.querySelector('main');
+    var elmBody = document.querySelector('body');
+    
+    if(width < wRation){
+        var calc = ((elmBody.offsetWidth * 100) / wRation) / 100;
+        var calcMargin = (wRation -  elmBody.offsetWidth) / 2;
+        elmMain.style.transform = 'scale(' + calc + ')';
+        elmMain.style.marginLeft = '-' + calcMargin + 'px';
+    }
+    
+}
+resolution();
+window.onresize = resolution;
