@@ -18,7 +18,7 @@ c. A and B both<br>
 d. None of these<br>
 
 Q 4. What is the maximum node of linked list has to be created in the simulator?<br>
-<b>a. 5</b><br>
+<b>a. 6</b><br>
 b. 4 <br>
 c. 7<br>
 d. 9<br>
