@@ -126,7 +126,7 @@
     {
       question: "What is the maximum node of linked list has to be created in the simulator?",
       answers: {
-        a: "5",
+        a: "6",
         b: "4",
         c: "7",
         d: "9"
