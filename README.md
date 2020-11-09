@@ -47,6 +47,6 @@ SrNo | Name | Faculty or Student | Department| Institute | Email id
 1 | Abhishek Mishra | Student | Computer Science and Engineering | Institute of Technology & Management, GIDA, Gorakhpur |mishraabhi8924@gmail.com
 2 | Ashish Shukla | Student | Computer Applications| Institute of Management Studies, Noida, Uttar Pradesh | ashishgkp22@yahoo.com
 3 | Kriti Shukla | Student | Computer Science and Engineering | Institute of Technology & Management, GIDA, Gorakhpur | kritishukla2019@gmail.com
-4 | Pankaj Kumar Gond | Student | Information Technology | Institute of Technology & Management, GIDA, Gorakhpur | pankajkumargond79@gmail.com
+4 | Pankaj Kumar Gond | Student | Information Technology | Institute of Technology & Management, GIDA, Gorakhpur | pankajkumargond79@gmail.com<br> </b>
 
-<br> </b>
+The link of website is <a href="https://ebootathon.com/labs/beta/csit/DS/exp3/">here</a>
